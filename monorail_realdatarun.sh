@@ -19,6 +19,6 @@ module load singularity/3.8.2
 	hg38 \
 	20 \
         /data/parikhpp/reference_indexes \
-	$fasta1
-	$fasta2
+	$fasta1 \
+	$fasta2 \
 	$srp
