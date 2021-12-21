@@ -10,7 +10,7 @@ fasta1=$2
 fasta2=$3
 srp=$4
 
-module load singularity/3.8.2
+module load singularity/3.8.5
 
 /bin/bash /home/parikhpp/git/monorail-external/singularity/run_recount_pump.sh \
         /home/parikhpp/git/monorail-external/recount-rs5_1.0.6.sif \
