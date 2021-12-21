@@ -17,7 +17,7 @@ name=$4
 module load singularity/3.8.2
 
 /bin/bash /home/parikhpp/git/monorail-external/singularity/run_recount_unify.sh \
-	/home/parikhpp/git/monorail-external/recount-unify_1.0.8.sif \
+	/home/parikhpp/git/monorail-external/recount-unify_1.0.9.sif \
 	hg38 \
 	/data/parikhpp/reference_indexes \
 	$wd \
